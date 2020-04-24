@@ -46,8 +46,7 @@ function reduceToTotal(array, startingPoint=0){
 
 
 function reduceToAllTrue(array, startingPoint){
-  let numbers = startingPoint;
-  
+  let numbers = startingPoint 
   array.forEach(function(num){
     if (!num) return false;
   });
