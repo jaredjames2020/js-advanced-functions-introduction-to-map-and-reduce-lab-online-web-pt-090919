@@ -35,11 +35,11 @@ function mapToSquare(array){
   return numbers;
 }
 
-function reduceToTotal(array, startingPoint){
+function reduceToTotal(array, startingPoint=0){
   const numbers = startingPoint;
   
   array.forEach(function(num){
-    numbers.push(num += num);
+    numbers.push(num + num);
   });
   return numbers;
 }
