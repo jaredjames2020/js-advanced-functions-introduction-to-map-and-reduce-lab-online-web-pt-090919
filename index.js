@@ -53,7 +53,3 @@ function reduceToAllTrue(array, startingPoint){
   });
 }
 
-
-if (!array[i]) return false
-    }
-    return true
