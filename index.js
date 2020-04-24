@@ -43,3 +43,16 @@ function reduceToTotal(array, startingPoint=0){
   });
   return numbers;
 }
+
+
+function reduceToAllTrue(array, startingPoint){
+  let numbers = startingPoint;
+  
+  array.forEach(function(num){
+    if num == true {
+      numbers += num;
+    }
+  });
+  return numbers;
+}
+
