@@ -36,7 +36,7 @@ function mapToSquare(array){
 }
 
 function reduceToTotal(array, startingPoint){
-  const numbers = [];
+  const numbers = startingPoint;
   
   array.forEach(function(num){
     numbers.push(num += num);
