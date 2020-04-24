@@ -16,3 +16,12 @@ function mapToNoChange(array){
   });
   return numbers;
 }
+
+function mapToDouble(array){
+  const numbers = [];
+  
+  array.forEach(function(num){
+    numbers.push(num * 2);
+  });
+  return numbers;
+}
