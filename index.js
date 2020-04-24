@@ -8,7 +8,7 @@ function mapToNegativize(array){
   return numbers;
 }
 
-function mapToNegativize(array){
+function mapToNoChange(array){
   const numbers = [];
   
   array.forEach(function(num){
