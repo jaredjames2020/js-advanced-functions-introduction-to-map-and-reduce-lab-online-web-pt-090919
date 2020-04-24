@@ -50,8 +50,7 @@ function reduceToAllTrue(array, startingPoint){
   
   array.forEach(function(num){
     if (!num) return false;
-  } return true;
-  );
+  });
 }
 
 
