@@ -12,7 +12,7 @@ function mapToNegativize(array){
   const numbers = [];
   
   array.forEach(function(num){
-    numbers.push(num * -1);
+    numbers.push(num);
   });
   return numbers;
 }
