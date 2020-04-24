@@ -44,11 +44,16 @@ function reduceToTotal(array, startingPoint=0){
   return numbers;
 }
 
-
-function reduceToAllTrue(array){
-    array.forEach(function(num) {
-        if (!num) return false;
-    });
-    return true;
+function reduceToAllTrue(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (!array[i]) return false
+    }
+    return true
 }
 
+function reduceToAnyTrue(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i]) return true
+    }
+    return false
+}
