@@ -34,3 +34,12 @@ function mapToSquare(array){
   });
   return numbers;
 }
+
+function reduceToTotal(array, startingPoint){
+  const numbers = [];
+  
+  array.forEach(function(num){
+    numbers.push(num += num);
+  });
+  return numbers;
+}
