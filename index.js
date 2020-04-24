@@ -49,9 +49,9 @@ function reduceToAllTrue(array, startingPoint){
   let numbers = startingPoint;
   
   array.forEach(function(num){
-    if num == true {
-      numbers += num;
-    }
+    if num === true (
+      return true
+      )
   });
   return numbers;
 }
