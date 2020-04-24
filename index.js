@@ -51,7 +51,7 @@ function reduceToAllTrue(array, startingPoint){
   array.forEach(function(num){
     if (num === true) {
       return true;
-    }else return false
+    }else return false;
   });
 }
 
