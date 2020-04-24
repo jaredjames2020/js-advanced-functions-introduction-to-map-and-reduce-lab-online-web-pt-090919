@@ -1,4 +1,7 @@
 // Your code here
-const mapToNegativize = function(sourceArray) {
-  sourceArray.map(neg => (neg * -1));
+function mapToNegativize(array){
+  numbers = [];
+  array.forEach{
+    num
+  }
 };
