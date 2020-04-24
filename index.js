@@ -45,10 +45,10 @@ function reduceToTotal(array, startingPoint=0){
 }
 
 
-function reduceToAllTrue(array, startingPoint){
-  let numbers = startingPoint 
-  array.forEach(function(num){
-    if (!num) return false;
-  });
+function reduceToAllTrue(array){
+  array.forEach(function(num) {
+        if (!array[i]) return false
+    }
+    return true
 }
 
