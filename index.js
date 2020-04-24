@@ -36,10 +36,10 @@ function mapToSquare(array){
 }
 
 function reduceToTotal(array, startingPoint=0){
-  const numbers = startingPoint;
+  let numbers = startingPoint;
   
   array.forEach(function(num){
-    numbers.push(num + num);
+    numbers = (num + num);
   });
   return numbers;
 }
