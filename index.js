@@ -5,5 +5,5 @@ function mapToNegativize(array){
   array.forEach(function(num){
     return numbers.push(num * -1);
   });
-  return numbers;
+ numbers;
 }
