@@ -2,6 +2,6 @@
 function mapToNegativize(array){
   numbers = [];
   array.forEach{
-    num
+    num * -1
   }
 };
