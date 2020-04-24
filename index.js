@@ -25,3 +25,12 @@ function mapToDouble(array){
   });
   return numbers;
 }
+
+function mapToSquare(array){
+  const numbers = [];
+  
+  array.forEach(function(num){
+    numbers.push(num * num);
+  });
+  return numbers;
+}
