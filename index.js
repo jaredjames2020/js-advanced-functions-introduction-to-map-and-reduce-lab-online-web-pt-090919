@@ -1,6 +1,6 @@
 // Your code here
 function mapToNegativize(array){
-  numbers = [];
+  const numbers = [];
   
   array.forEach(function(num){
     numbers.push(num * -1);
