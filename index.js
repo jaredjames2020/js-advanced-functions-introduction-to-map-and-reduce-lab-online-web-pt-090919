@@ -39,7 +39,7 @@ function reduceToTotal(array, startingPoint=0){
   let numbers = startingPoint;
   
   array.forEach(function(num){
-    numbers = (num + num);
+    numbers += num;
   });
   return numbers;
 }
