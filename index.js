@@ -1,7 +1,7 @@
 // Your code here
 function mapToNegativize(array){
   numbers = [];
-  array.forEach{
+  array.forEach{function()
     num * -1
   }
 };
