@@ -46,9 +46,9 @@ function reduceToTotal(array, startingPoint=0){
 
 
 function reduceToAllTrue(array){
-  array.forEach(function(num) {
-      if (!array[i]) return false
-    }
-    return true;
+    array.forEach(function(num) {
+        if (!num) return false
+    })
+    return true
 }
 
