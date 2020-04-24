@@ -3,7 +3,7 @@ function mapToNegativize(array){
   numbers = [];
   
   array.forEach(function(num){
-    numbers.push(num * -1);
+    return numbers.push(num * -1);
   });
   return numbers;
 }
